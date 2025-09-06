@@ -200,13 +200,14 @@ button {
 }
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
-
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .features-list {
@@ -338,7 +339,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -346,6 +346,7 @@ button {
 }
 
 .footer-text {
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
