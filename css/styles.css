@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 address {
   font-style: normal;
 }
@@ -40,7 +44,8 @@ button {
   width: 1158;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title {
@@ -124,6 +129,7 @@ button {
 } */
 
 .header-contacts {
+  margin-left: auto;
 }
 
 .header-contacts-list {
@@ -204,8 +210,12 @@ button {
 }
 
 .features-list {
+  display: flex;
+  gap: 24px;
 }
+
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -233,13 +243,21 @@ button {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: calc ((100% - 3 * 24px) / 4);
 }
+
 .img-title {
+  margin-bottom: 32px;
 }
+
 .team-subtitle {
   text-align: center;
   text-transform: capitalize;
@@ -265,9 +283,18 @@ button {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 48px;
 }
+
 .portfolio-item {
+  border: 1px solid #e7e9fc;
+  width: calc ((100% - 5 * 24px) / 6);
+  background-color: #fff;
 }
+
 .portfolio-img {
 }
 .portfolio-subtitle {
