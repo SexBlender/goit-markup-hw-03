@@ -8,7 +8,13 @@ body {
   background-color: #ffffff;
 }
 
-p, h1, h2, h3, h4, h5, h5 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
   margin: 0;
 }
 
@@ -34,6 +40,7 @@ button {
   width: 1158;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .section-title {
@@ -54,6 +61,13 @@ button {
 }
 
 /* HEADER */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -105,6 +119,8 @@ button {
 /* HERO */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -114,6 +130,9 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -124,6 +143,8 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -133,7 +154,10 @@ button {
 
 /* features */
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .visually-hidden {
   margin: -1px;
   border: 0;
@@ -148,7 +172,9 @@ button {
 }
 .features-item {
 }
+
 .features-subtitle {
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -156,18 +182,24 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 }
 
 /* TEAM */
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-title {
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
 .team-list {
 }
+
 .team-item {
   background-color: #ffffff;
 }
@@ -185,10 +217,16 @@ button {
   text-align: center;
   color: #434455;
 }
+
+/* PORTFOLIO */
 .portfolio {
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
+
 .portfolio-title {
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -209,6 +247,8 @@ button {
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -230,4 +270,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 18px;
 }
