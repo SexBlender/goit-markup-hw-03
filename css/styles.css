@@ -340,6 +340,10 @@ button {
 }
 
 .footer-logo {
+  display: inline-block; /* окремо, щоб система точно знайшла */
+}
+
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -347,7 +351,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
